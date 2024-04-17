@@ -1,0 +1,41 @@
+:root {
+  --gradient-trans: linear-gradient(to right, #CCBAF7B3, #B8C0F8B3, #A3C8FAB3, #8DD0FCB3);
+  --gradient-full: linear-gradient(to right, #CCBAF7, #B8C0F8, #A3C8FA, #8DD0FC);
+  --background: linear-gradient(to bottom, #EDF0F7, #E2E7F0);
+  --background-blue: #8DD0FCB3;
+  --black: #333333;
+  --dark-gray: #717D96;
+  --light-gray: #EDF0F7;
+  --white: #F5F5F5;
+  --shadow: #CBD2E0;
+  --popup: #333333aa;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}

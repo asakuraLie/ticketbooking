@@ -1,0 +1,57 @@
+.App {
+  gap: 30px !important;
+}
+
+.App .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App .App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.App .button {
+  display: flex;
+  gap: 10px;
+}
+
+.App .seating-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .content {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.App .content .grid {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+.App .content .col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.App .confirm-seat {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
